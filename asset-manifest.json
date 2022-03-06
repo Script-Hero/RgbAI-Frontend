@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RgbAI-Frontend/static/css/main.95dcb3d7.css",
-    "main.js": "/RgbAI-Frontend/static/js/main.6e5211dd.js",
-    "static/js/787.cda612ba.chunk.js": "/RgbAI-Frontend/static/js/787.cda612ba.chunk.js",
-    "static/media/logo.svg": "/RgbAI-Frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/RgbAI-Frontend/index.html",
-    "main.95dcb3d7.css.map": "/RgbAI-Frontend/static/css/main.95dcb3d7.css.map",
-    "main.6e5211dd.js.map": "/RgbAI-Frontend/static/js/main.6e5211dd.js.map",
-    "787.cda612ba.chunk.js.map": "/RgbAI-Frontend/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/static/css/main.95dcb3d7.css",
+    "main.js": "/static/js/main.48e899ae.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.95dcb3d7.css.map": "/static/css/main.95dcb3d7.css.map",
+    "main.48e899ae.js.map": "/static/js/main.48e899ae.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95dcb3d7.css",
-    "static/js/main.6e5211dd.js"
+    "static/js/main.48e899ae.js"
   ]
 }
