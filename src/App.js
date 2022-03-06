@@ -10,7 +10,7 @@ class App extends React.Component {
 
     this.state = {
       c1 : '#' + Math.floor(Math.random()*16777215).toString(16),
-      c2 : '#' + Math.floor(Math.random()*16777215).toString(16),
+      c2 : '#FFFFFF',
       c3 : '#FFFFFF',
       c4 : '#FFFFFF',
       score:0,
@@ -87,7 +87,7 @@ class App extends React.Component {
   reset(){
     this.setState( {
       c1 : '#' + Math.floor(Math.random()*16777215).toString(16),
-      c2 : '#' + Math.floor(Math.random()*16777215).toString(16),
+      c2 : '#FFFFFF',
       c3 : '#FFFFFF',
       c4 : '#FFFFFF',
       score:0
@@ -99,6 +99,7 @@ class App extends React.Component {
     let c = this.state.startColor;
 
     let cs = [
+      <div class='colorpicker'><HexColorPicker  color={ this.state.c2 } onChange={ this.handleChange1 }/></div>,
       <div class='colorpicker'><HexColorPicker  color={ this.state.c3 } onChange={ this.handleChange2 }/></div>,
       <div class='colorpicker'><HexColorPicker  color={ this.state.c4 } onChange={ this.handleChange3 }/></div>,
 
