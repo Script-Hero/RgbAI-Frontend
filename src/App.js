@@ -54,7 +54,7 @@ class App extends React.Component {
       })
     }
 
-    fetch('http://localhost:8080/compute_set', request_options).then(resp => resp.json()).then(data => {
+    fetch('https://rgbai-backend.herokuapp.com/compute_set', request_options).then(resp => resp.json()).then(data => {
       this.setState({score:data})
     }).catch((err) => {
       this.reset();
@@ -71,7 +71,7 @@ class App extends React.Component {
       })
     }
 
-    fetch('http://localhost:8080/autocomplete_set', request_options).then(resp => resp.json()).then(data => {
+    fetch('https://rgbai-backend.herokuapp.com/autocomplete_set', request_options).then(resp => resp.json()).then(data => {
       this.setState({
         c1: data.colorset[0],
         c2: data.colorset[1],
