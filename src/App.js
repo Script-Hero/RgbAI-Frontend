@@ -124,13 +124,20 @@ class App extends React.Component {
 
 
         <div id="solver-section">
-            <div id="calculate-button" onClick={this.calculateScore}>
-              <p>Calculate</p> 
-            </div>
+          <div id='button-row'>
+
             <div id='hint-button' onClick={this.adjust}>
               <p>{this.state.loading ? "..." : "Hint"}</p>
             </div>
-            <h1 id='score'>{(this.state.score*100).toFixed(2)}%</h1>
+              
+
+            <div id="calculate-button" onClick={this.calculateScore}>
+              <p>Calculate</p> 
+            </div>
+
+          </div>
+
+          <h1 id='score'>{(this.state.score*100).toFixed(2)}%</h1>
         </div>
         
       </div>
