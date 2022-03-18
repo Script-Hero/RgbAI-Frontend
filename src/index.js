@@ -4,9 +4,28 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  BrowserRouter
+} from "react-router-dom";
+
+import AboutPage from './AboutPage/AboutPage';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<App />} ></Route>
+      
+      <Route path='/about' element={<AboutPage/>}></Route>
+      </Routes>
+      </BrowserRouter>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

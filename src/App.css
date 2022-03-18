@@ -97,3 +97,31 @@
   align-items: center;
   justify-content: center;
 }
+
+
+#how-to-link {
+  text-decoration: none;
+  color:black;
+}
+
+#how-to-button {
+  height:50px;
+  width:200px;
+  border:3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#how-to-button-text {
+  font-weight: bold;
+}
+
+#how-to-container {
+  left:0;
+  bottom:0;
+  margin-left:10px;
+  margin-bottom:10px;
+  position: absolute;
+}

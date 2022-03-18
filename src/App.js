@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { HexColorPicker } from "react-colorful";
+import {Link} from 'react-router-dom';
 
 
 class App extends React.Component {
@@ -110,6 +111,15 @@ class App extends React.Component {
         <div id="reset-button" onClick={this.reset}>
           <p>Reset</p>
         </div>
+
+        <div id='how-to-container'>
+          <Link id='how-to-link' to='/about'>
+            <div id='how-to-button'>
+              <p id='how-to-button-text'>Instructions</p>
+            </div>
+          </Link>
+        </div>
+
         <div id="color-display-box">
           <div class="color-box" style={{backgroundColor:this.state.c1}} /> 
           <div class="color-box" style={{backgroundColor:this.state.c2}} /> 
